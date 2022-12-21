@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    background-color: black;
+    opacity: 0.9;
+    color: seashell;
+    text-align: center;
+}
+
+#mission {
+    background-image: url(images/img-mission-background.jpg);
+    height: 700px;
+    display: flex;
+    align-items: center;
+}
+#favtea{
+    width: 1000px;
+}
+div.images{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+#favtea img{
+    height: 200px;
+    width: 300px;
+}
+
+figcaption{
+    margin-top: 10px;
+}
+
+#location{ 
+    background-image: url(images/img-locations-background.jpg);
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#location div{
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column ;
+    justify-content: space-around;
+}
